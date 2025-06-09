@@ -9,17 +9,18 @@
 * [How to remove your Poly content](how-to-remove-your-poly-content.md)
 * [Hosting your own server](hosting-your-own-server.md)
 * [Understanding Creative Commons Licenses](understanding-creative-commons-licenses.md)
+* [API](api/README.md)
+  * ```yaml
+    type: builtin:openapi
+    props:
+      models: true
+    dependencies:
+      spec:
+        ref:
+          kind: openapi
+          spec: icosa-api
+    ```
 * [FAQ](faq.md)
-* ```yaml
-  type: builtin:openapi
-  props:
-    models: true
-  dependencies:
-    spec:
-      ref:
-        kind: openapi
-        spec: icosa-api
-  ```
 
 ## Blog
 
