@@ -10,7 +10,19 @@
 * [Hosting your own server](hosting-your-own-server.md)
 * [Understanding Creative Commons Licenses](understanding-creative-commons-licenses.md)
 * [FAQ](faq.md)
+* ```yaml
+  type: builtin:openapi
+  props:
+    models: true
+  dependencies:
+    spec:
+      ref:
+        kind: openapi
+        spec: icosa-api
+  ```
 
 ## Blog
 
-* [Introducing Icosa Gallery](blog/introducing-icosa-gallery.md)
+***
+
+* [Introducing Icosa Gallery](introducing-icosa-gallery.md)
